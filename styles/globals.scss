@@ -16,14 +16,27 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.fit-height {
+  min-height: calc(100vh - 64px);
+}
+
+body, * {
+  padding: 0;
+  margin: 0;
+}
+
+.primary-color-bg {
+  background-color: #CAD3D2;
+}
+
+.primary-color-borders {
+  border: solid 1px #CAD3D2;
+}
+
+.cls {
+  .add-on {
+    background-color: aqua;
+  }
 }
 
 @layer utilities {
