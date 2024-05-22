@@ -24,7 +24,7 @@ const Home = function Home() {
               The platform commerce is built on.
             </h1>
             <p className="text-lg font-body text-black-300 sm:w-4/5">
-              Millions of the world's most successful brands trust Magasine to
+              Millions of the world&apos;s most successful brands trust Magasine to
               sell, ship and process payments anywhere.
             </p>
           </section>
@@ -37,7 +37,7 @@ const Home = function Home() {
               alt="chair"
             />
             }
-              <button onClick={() => router.push('/shop')} className="min-w-[195px] text-[#064A4A] mt-5 bg-[#C7EBE8] hover:bg-primary-200 transition-all duration-200 ease-in rounded-full py-1 w-full sm:py-1.5 md:py-2">
+              <button onClick={() => router.push("/shop")} className="min-w-[195px] text-[#064A4A] mt-5 bg-[#C7EBE8] hover:bg-primary-200 transition-all duration-200 ease-in rounded-full py-1 w-full sm:py-1.5 md:py-2">
                 Shop now
               </button>
           </div>
